@@ -35,7 +35,7 @@ jobs:
         run: npm run build
       # installs all the packages in package.json.
       - name: Installing npm
-        run: npm installs
+        run: npm install
         
         # Runs a set of commands using the runners shell
       - name: deploying in surge
