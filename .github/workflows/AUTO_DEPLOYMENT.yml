@@ -43,5 +43,5 @@ jobs:
      #   run: npm install surge  
         # Runs a set of commands using the runners shell
       - name: deploying in surge
-        run: npx surge ./build https://testing_deployment.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+        run: npx surge ./build https://testing_deployment.surge.sh --token ${{ secrets.SURGER_TOKEN }}
       
