@@ -6,3 +6,5 @@ function Dinner(props){
 
     </div>
 }
+
+export default Dinner;
