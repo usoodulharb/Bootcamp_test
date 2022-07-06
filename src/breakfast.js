@@ -1,6 +1,6 @@
 import React from "react";
 
-function breakfast(){
+function Breakfast(){
     return(
         <div>
             <h4>For breakfast, I mostly eat Anda-Pratha.</h4>
@@ -8,4 +8,4 @@ function breakfast(){
     )
 }
 
-export default breakfast;
+export default Breakfast;

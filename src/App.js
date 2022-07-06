@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Dinner from './Dinner.js';
-import breakfast from './breakfast';
+import Breakfast from './breakfast';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
         <Dinner DishName="Biryani" SweetDish="Kheer"/>
         <br />
         
-        <breakfast />
+        <Breakfast />
         <br />
       </header>
     </div>
